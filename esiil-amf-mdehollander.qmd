@@ -1,12 +1,13 @@
 ---
 format:
   revealjs:
-    theme: [simple, resume.scss]
+    theme: [simple, style.scss]
     transition: none
     width: 1920
     height: 1080
     margin: 0.05
     slide-level: 2
+    embed-resources: true
 from: markdown+emoji
 ---
 
