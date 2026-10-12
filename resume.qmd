@@ -10,8 +10,6 @@ format:
 from: markdown+emoji
 ---
 
-# {background-color="#1a1a2e"}
-
 ## {background-color="#1a1a2e"}
 
 ::: {.cv-header}
@@ -24,12 +22,12 @@ from: markdown+emoji
 <div class="cv-contact">
 :email: [m.dehollander@nioo.knaw.nl](mailto:m.dehollander@nioo.knaw.nl) · [Github: @mdehollander](https://www.github.com/mdehollander) · [https://nioo.knaw.nl/en/employees/mattias-de-hollander](https://nioo.knaw.nl/en/employees/mattias-de-hollander)
 </div>
+
 :::
 
 ![](assets/photo.jpg){.cv-photo width="160"}
+
 :::
-
-
 
 :::: {.columns}
 
@@ -42,18 +40,20 @@ Bioinformatician with 10+ years of experience in data analysis,data infrastructu
 :::
 
 ::: {.column width="40%"}
-### :hammer_and_wrench: **Skills**
+
+### :hammer_and_wrench: Skills
 
 ::: {.pills}
+
 - R
 - Python
 - Bash scripting
 - Snakemake
 - Nextflow
-- Quarto
 - Git
 - Markdown
 - High Performance Computing (HPC)
+
 :::
 
 ### :briefcase: Expertise
@@ -67,9 +67,11 @@ Bioinformatician with 10+ years of experience in data analysis,data infrastructu
 - reproducible research
 :::
 
+:::
+
 ::::
 
-## </> Pipeline updates {background-color="#1a1a2e"}
+# </> Pipeline updates {background-color="#1a1a2e"}
 
 - a new pipeline as update to the original LSU pipeline is in development
 - it uses the nextflow nf-core/ampliseq pipeline for initial sequence processing
