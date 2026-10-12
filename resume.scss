@@ -1,0 +1,72 @@
+/*-- scss:defaults --*/
+
+// Inherit from simple theme, customize for CV look
+$font-family-sans-serif: "Source Sans Pro", "Lato", Helvetica, sans-serif !default;
+$link-color: #2980b9 !default;
+$presentation-heading-color: #2c3e50 !default;
+$body-color: #333 !default;
+$body-bg: #ffffff !default;
+
+
+/*-- scss:rules --*/
+
+
+/* Header area */
+.reveal .cv-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  margin-bottom: 1em;
+  padding-bottom: 0.4em;
+  border-bottom: 3px solid $link-color;
+}
+
+.reveal .cv-header-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.reveal .cv-name {
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.1em;
+}
+
+.reveal .cv-title {
+  font-size: 0.7em;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+.reveal .cv-contact {
+  font-size: 0.7em;
+  line-height: 1.4;
+}
+
+/* Round profile photo */
+.reveal .cv-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .slide div.pills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 0.7em;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+}
+
+.reveal .slide div.pills ul li {
+  margin: 0 !important;
+  background: rgba($link-color, 0.1);
+  border: 1px solid rgba($link-color, 0.3);
+  border-radius: 4px;
+  padding: 0.25em 0.6em;
+  font-size: 0.7em;
+  white-space: nowrap;
+}

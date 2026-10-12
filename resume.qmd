@@ -1,0 +1,73 @@
+---
+format: 
+  revealjs:
+    theme: [simple, resume.scss]
+    transition: none
+    width: 1920         
+    height: 1080
+    margin: 0.05
+from: markdown+emoji
+---
+
+# {background-color="#1a1a2e"}
+
+## {background-color="#1a1a2e"}
+
+<div class="cv-header" >
+<div class="cv-header-text">
+### Mattias de Hollander, MSc {.cv-name}
+### Bioinformatician, Netherlands Institute of Ecology (NIOO-KNAW), NL {.cv-title}
+<div class="cv-contact">
+  :email: [m.dehollander@nioo.knaw.nl](mailto:m.dehollander@nioo.knaw.nl) · [Github: @mdehollander](https://www.github.com/mdehollander) · [https://nioo.knaw.nl/en/employees/mattias-de-hollander](https://nioo.knaw.nl/en/employees/mattias-de-hollander)
+</div>
+</div>
+![](assets/photo.jpg){.cv-photo width="160"}
+</div>
+
+
+:::: {.columns}
+
+::: {.column width="60%" style="padding-right: 2em;"}
+
+### :adult: About Me
+
+Bioinformatician with 10+ years of experience in data analysis,data infrastructure, and reproducible research. Passionate about making data analysis transparent, reproducible, and accessible.
+
+:::
+
+::: {.column width="40%"}
+### :hammer_and_wrench: **Skills**
+
+::: {.pills}
+- Linux bash
+- Python
+- R
+- Positron
+- Markdown
+- Quarto
+- HPC
+:::
+
+### :briefcase: Expertise
+::: {.pills}
+- 16S metagenomics
+- shotgun metagenomics
+- data-management
+:::
+
+::::
+
+# </> Pipeline updates {background-color="#1a1a2e"}
+
+- an new pipeline as update to the original LSU pipeline is in development
+- it uses the nextflow nf-core/ampliseq pipeline for initial sequence processing
+- Tree building and phylogenetic placement are performed by epa-ng and happa
+- Original R scripts are used for clade extraction and taxonomy assignment
+
+Source code and documentation: [mdehollander/AMF-LSU-Database-and-Pipeline2 (ampliseq branch)](https://github.com/mdehollander/AMF-LSU-Database-and-Pipeline2/tree/ampliseq/2024_AMFPipeline/2024_AMFPipeline_ASV)
+
+::: {.callout-warning title="Work in progress"}
+This pipeline is under active development. Scripts and documentation may change as we finalize the workflow.
+:::
+
+- Planned development: These post-ampliseq scripts are currently executed manually in sequence. A standalone Nextflow pipeline is in development that will automate these downstream scripts into a single, reproducible workflow run after ampliseq.
