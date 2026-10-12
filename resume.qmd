@@ -1,11 +1,12 @@
 ---
-format: 
+format:
   revealjs:
     theme: [simple, resume.scss]
     transition: none
-    width: 1920         
+    width: 1920
     height: 1080
     margin: 0.05
+    slide-level: 2
 from: markdown+emoji
 ---
 
@@ -13,16 +14,21 @@ from: markdown+emoji
 
 ## {background-color="#1a1a2e"}
 
-<div class="cv-header" >
-<div class="cv-header-text">
+::: {.cv-header}
+
+::: {.cv-header-text}
+
 ### Mattias de Hollander, MSc {.cv-name}
 ### Bioinformatician, Netherlands Institute of Ecology (NIOO-KNAW), NL {.cv-title}
+
 <div class="cv-contact">
-  :email: [m.dehollander@nioo.knaw.nl](mailto:m.dehollander@nioo.knaw.nl) · [Github: @mdehollander](https://www.github.com/mdehollander) · [https://nioo.knaw.nl/en/employees/mattias-de-hollander](https://nioo.knaw.nl/en/employees/mattias-de-hollander)
+:email: [m.dehollander@nioo.knaw.nl](mailto:m.dehollander@nioo.knaw.nl) · [Github: @mdehollander](https://www.github.com/mdehollander) · [https://nioo.knaw.nl/en/employees/mattias-de-hollander](https://nioo.knaw.nl/en/employees/mattias-de-hollander)
 </div>
-</div>
+:::
+
 ![](assets/photo.jpg){.cv-photo width="160"}
-</div>
+:::
+
 
 
 :::: {.columns}
@@ -39,27 +45,33 @@ Bioinformatician with 10+ years of experience in data analysis,data infrastructu
 ### :hammer_and_wrench: **Skills**
 
 ::: {.pills}
-- Linux bash
-- Python
 - R
-- Positron
-- Markdown
+- Python
+- Bash scripting
+- Snakemake
+- Nextflow
 - Quarto
-- HPC
+- Git
+- Markdown
+- High Performance Computing (HPC)
 :::
 
 ### :briefcase: Expertise
 ::: {.pills}
-- 16S metagenomics
+- amplicon metagenomics
 - shotgun metagenomics
-- data-management
+- amplicon sequencing (NGS)
+- taxonomic classification
+- data curation & management
+- pipeline development
+- reproducible research
 :::
 
 ::::
 
-# </> Pipeline updates {background-color="#1a1a2e"}
+## </> Pipeline updates {background-color="#1a1a2e"}
 
-- an new pipeline as update to the original LSU pipeline is in development
+- a new pipeline as update to the original LSU pipeline is in development
 - it uses the nextflow nf-core/ampliseq pipeline for initial sequence processing
 - Tree building and phylogenetic placement are performed by epa-ng and happa
 - Original R scripts are used for clade extraction and taxonomy assignment
