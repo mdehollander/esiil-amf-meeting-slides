@@ -76,7 +76,7 @@ Bioinformatician with 10+ years of experience in data analysis,data infrastructu
 
 - a new pipeline as update to the original LSU pipeline is in development
 - it uses the nextflow nf-core/ampliseq pipeline for initial sequence processing
-- Tree building and phylogenetic placement are performed by epa-ng and happa
+- Tree building and phylogenetic placement are performed by epa-ng and gappa
 - Original R scripts are used for clade extraction and taxonomy assignment
 
 Source code and documentation: [mdehollander/AMF-LSU-Database-and-Pipeline2 (ampliseq branch)](https://github.com/mdehollander/AMF-LSU-Database-and-Pipeline2/tree/ampliseq/2024_AMFPipeline/2024_AMFPipeline_ASV)
