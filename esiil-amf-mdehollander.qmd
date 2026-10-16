@@ -8,6 +8,9 @@ format:
     margin: 0.05
     slide-level: 2
     embed-resources: true
+    logo:
+      path: assets/nioo.png
+      alt: "NIOO logo"
 from: markdown+emoji
 ---
 
@@ -21,7 +24,7 @@ from: markdown+emoji
 ### Bioinformatician, Netherlands Institute of Ecology (NIOO-KNAW), NL {.cv-title}
 
 <div class="cv-contact">
-:email: [m.dehollander@nioo.knaw.nl](mailto:m.dehollander@nioo.knaw.nl) · {{< fa brands github >}} [@mdehollander](https://www.github.com/mdehollander) · [https://nioo.knaw.nl/en/employees/mattias-de-hollander](https://nioo.knaw.nl/en/employees/mattias-de-hollander) 
+:email: [m.dehollander@nioo.knaw.nl](mailto:m.dehollander@nioo.knaw.nl) · {{< fa brands github >}} [@mdehollander](https://www.github.com/mdehollander) · [https://nioo.knaw.nl/en/employees/mattias-de-hollander](https://nioo.knaw.nl/en/employees/mattias-de-hollander) · {{< fa brands mastodon >}} [@mattias@fediscience.org](https://fediscience.org/@mattias) · {{< fa brands bluesky >}} [@tiasmat](https://bsky.app/profile/tiasmat.bsky.social) · {{< fa brands linkedin >}} [@mdehollander](http://nl.linkedin.com/in/mdehollander)
 </div>
 
 :::
@@ -37,6 +40,18 @@ from: markdown+emoji
 ### :adult: About Me
 
 Bioinformatician with 10+ years of experience in data analysis,data infrastructure, and reproducible research. Passionate about making data analysis transparent, reproducible, and accessible.
+
+### :juggling_person: Hobbies
+
+::: {.pills}
+- :deciduous_tree: nature
+- :mountain: mountains
+- :hiking_boot: hiking
+- :bicyclist: cycling
+- {{< fa brands linux >}} linux
+- :carrot: farming
+- :movie_camera: arthouse movies
+:::
 
 :::
 
